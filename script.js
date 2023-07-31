@@ -5,7 +5,7 @@
   const downloadBtn = document.getElementById("downloadBtn");
 
 downloadBtn.addEventListener("click", function() {
-  const pdfURL = "images/AKSHAY_BHAT_RESUME.pdf"; // Replace this with the actual URL of your PDF file
+  const pdfURL = "./images/AKSHAY_BHAT_RESUME.pdf"; // Replace this with the actual URL of your PDF file
   const pdfFileName = "AKSHAY_BHAT_RESUME.pdf"; // Set the desired file name for the downloaded PDF
 
   // Create a link element for the download

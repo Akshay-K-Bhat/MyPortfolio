@@ -251,6 +251,10 @@ a {
       display: flex;
     }
 
+    .hero{
+      padding-left: 40px;
+    }
+
     .lines img {
       height: 350px;
     }
@@ -278,8 +282,8 @@ a {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      width: 100%;
       height: fit-content;
+      padding-right: 20px;
     }
   
     .skills{
@@ -288,7 +292,7 @@ a {
       flex-direction: column;
       align-items: center;
       width: 100%;
-      padding: 20px;
+      padding-left: 60px;
     }
   
     .skills_text{
@@ -314,6 +318,10 @@ a {
       font-size: 11px;
     }
 
+    .footer_nav li{
+      gap: 3px;
+    }
+
     .hero_image img{
       height: 50%;
     }
@@ -334,7 +342,11 @@ a {
       display: flex;
       flex-direction: column;
       width: 100%;
-      padding: 20px;
+  }
+
+  .project_container{
+    padding-left: 40px;
+    padding-top: 30px;
   }
 
 }
