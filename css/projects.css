@@ -3,6 +3,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    justify-items: center;
+    width: 100%;
+    padding: 0 20px;
 }
 
 .featured_projects{
@@ -17,6 +20,7 @@
 .project_heading{
     display: flex;
     flex-direction: column;
+    padding-bottom: 15px;
 }
 
 .project_heading h4{
@@ -40,7 +44,7 @@ letter-spacing: 0.32px;
 
 
 .project_thumbnail img{
-    height: 230px;
+    height: 200px;
     border-radius: 10px;
     border: 10px  solid  #2B0B3A;
     object-fit: contain;
@@ -83,40 +87,6 @@ line-height: normal;
     background: radial-gradient(50% 50.00% at 50% 50.00%, #763CAC 0%, rgba(50, 15, 133, 0.00) 100%); 
 }
 
-  
-  
-  .link-wrapper {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .link-wrapper .thumbnail {
-    transition: filter 0.3s ease; 
-  }
-  
-  .link-wrapper:hover .thumbnail {
-    filter: blur(0.5px); /* Apply the blur effect to the image on hover */
-  }
-  
-  .tooltip {
-    display: none;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    border-radius: 5px;
-    z-index: 1; /* Ensure the tooltip appears above the blurred image */
-  }
-  
-  .link-wrapper:hover .tooltip {
-    display: block;
-  }
-  
-  
   
   
   
