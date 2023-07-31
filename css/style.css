@@ -251,9 +251,6 @@ a {
       display: flex;
     }
 
-    .hero{
-      padding-left: 40px;
-    }
 
     .arrow{
       left: 70px;
@@ -264,7 +261,7 @@ a {
     }
 
     .hero_img{
-      width: 300px;
+      width: 350px;
     }
 
     .lines img {
