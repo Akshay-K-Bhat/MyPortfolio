@@ -285,14 +285,18 @@ a {
     }
   
     .eclipse img{
-      height: 150px;
-      margin: -65px;
+      height: 140px;
+      margin: -65 0px;
       
     }
   
     .elipse{
       height: 300px;
-      margin: -70px;
+      margin: -70px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: 30px;
     }
   
     .eclipse .e {
@@ -312,6 +316,7 @@ a {
       justify-content: center;
       flex-direction: column;
       align-items: center;
+      width: 95%;
     }
   
     .skills_text{
@@ -325,7 +330,8 @@ a {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
-      justify-content: center
+      justify-content: center;
+
     }
   
     .footer_nav{
@@ -351,6 +357,13 @@ a {
     .arrow p{
       display: flex;
       flex-direction: column;
+    }
+
+     .link-wrapper{
+      width: 90%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 }
 

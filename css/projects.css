@@ -88,6 +88,9 @@ line-height: normal;
   
   .link-wrapper {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .link-wrapper .thumbnail {
