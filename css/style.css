@@ -120,11 +120,11 @@ a {
 @media (max-width: 767px) {
   /* CSS styles for mobile phones and small tablets */
   .header__menu li {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .header__menu-mobile {
-    display: flex;
+    display: none;
   }
 
   .hero_section {
@@ -366,6 +366,11 @@ a {
     width: 100px;
     object-fit: contain;
   }
+
+  .footer_social_media{
+    align-items: center;
+  }
+
 
 }
 
