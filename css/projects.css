@@ -50,8 +50,6 @@ letter-spacing: 0.32px;
     display: flex;
     flex-direction: column;
     width: 550px;
-    position: relative;
-    bottom: 40px;
 }
 
 .project_desc{
@@ -63,7 +61,6 @@ letter-spacing: 0.32px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Apply a subtle box shadow */
     padding: 20px 40px 20px 20px; /* Add some padding to give content some space */
     width: fit-content;
-    z-index: 1;
     
 }
 

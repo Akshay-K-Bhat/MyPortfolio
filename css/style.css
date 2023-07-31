@@ -250,29 +250,6 @@ a {
     .header__menu-mobile {
       display: flex;
     }
-  
-    .hero_section {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-    
-    .hero_image {
-      overflow: hidden;
-    }
-    .hero_text {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-start;
-    }
-  
-    .hero_text h1 {
-      font-size: 25px;
-    }
-  
-
 
     .lines img {
       height: 350px;
@@ -352,6 +329,7 @@ a {
       display: flex;
       flex-direction: column;
     }
+
 
 }
 
