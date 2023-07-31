@@ -4,8 +4,6 @@
     align-items: center;
     justify-content: center;
     justify-items: center;
-    width: 100%;
-    padding: 0 20px;
 }
 
 .featured_projects{
@@ -13,8 +11,6 @@
     align-items: flex-end;
     justify-content: center;
     align-items: center;
-    width: 70%;
-    gap: 5px;
 }
 
 .project_heading{
@@ -53,6 +49,9 @@ letter-spacing: 0.32px;
 .project_text{
     display: flex;
     flex-direction: column;
+    width: 550px;
+    position: relative;
+    bottom: 40px;
 }
 
 .project_desc{

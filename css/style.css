@@ -256,9 +256,11 @@ a {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      width: 100%;
     }
     
+    .hero_image {
+      overflow: hidden;
+    }
     .hero_text {
       display: flex;
       flex-direction: column;
