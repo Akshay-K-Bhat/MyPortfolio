@@ -236,7 +236,7 @@ a {
 /* CSS for larger screens (default styles) */
 
 /* Media query for smaller screens (e.g., smartphones in portrait mode) */
-@media (max-width: 480px) {
+@media (max-width: 580px) {
   /* CSS styles for smaller screens go here */
     /* CSS styles for mobile phones and small tablets */
     .header__menu {
