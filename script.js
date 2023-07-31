@@ -1,6 +1,6 @@
-window.addEventListener("contextmenu", function(event) {
-    event.preventDefault();
-  });
+// window.addEventListener("contextmenu", function(event) {
+//     event.preventDefault();
+//   });
 
   const downloadBtn = document.getElementById("downloadBtn");
 
