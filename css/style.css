@@ -123,6 +123,10 @@ a {
     display: none;
   }
 
+  .header__menu li {
+    font-size: 12px;
+  }
+
   .header__menu-mobile {
     display: flex;
   }
