@@ -16,13 +16,14 @@
 .project_heading{
     display: flex;
     flex-direction: column;
-    padding-bottom: 15px;
+    padding-bottom: 1rem;
 }
+
 
 .project_heading h4{
     color: #9857D3;
 font-family: Poppins;
-font-size: 16px;
+font-size: 1rem;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
