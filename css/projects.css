@@ -50,6 +50,8 @@ letter-spacing: 0.32px;
     display: flex;
     flex-direction: column;
     width: 550px;
+    position: relative;
+    bottom: 40px;
 }
 
 .project_desc{

@@ -330,6 +330,12 @@ a {
       flex-direction: column;
     }
 
+    .project_text{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 20px;
+  }
 
 }
 
