@@ -321,7 +321,7 @@ a {
     }
   
     .footer_nav{
-      padding-top: 120px;
+      padding-top: 120px 20px 20px 20px;
       display: flex;
       align-items: center;
       justify-content: center;
