@@ -1,0 +1,120 @@
+.project_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured_projects{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
+    width: 70rem;
+}
+
+.project_heading{
+    display: flex;
+    flex-direction: column;
+}
+
+.project_heading h4{
+    color: #9857D3;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.32px;
+}
+
+.project_heading {
+    width: fit-content;
+}
+
+.project_heading img {
+    height: 22px;
+}
+
+
+
+.project_thumbnail img{
+    height: 230px;
+    border-radius: 10px;
+    border: 15px  solid  #2B0B3A;
+    object-fit: contain;
+}
+
+.project_text{
+    display: flex;
+    flex-direction: column;
+}
+
+.project_desc{
+    text-align: justify;
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    backdrop-filter: blur(5px); /* Adjust the blur amount as needed */
+    border-radius: 10px; /* Add rounded corners for a smoother effect */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Apply a subtle box shadow */
+    padding: 20px 40px 20px 20px; /* Add some padding to give content some space */
+    width: fit-content;
+    
+}
+
+.project_desc p {
+    color: #CCD6F6;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.project_thumbnail{
+    width: 402px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 720px;
+    background: radial-gradient(50% 50.00% at 50% 50.00%, #763CAC 0%, rgba(50, 15, 133, 0.00) 100%);
+   
+}
+
+  
+  
+  .link-wrapper {
+    position: relative;
+  }
+
+  .link-wrapper .thumbnail {
+    transition: filter 0.3s ease; 
+  }
+  
+  .link-wrapper:hover .thumbnail {
+    filter: blur(0.5px); /* Apply the blur effect to the image on hover */
+  }
+  
+  .tooltip {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    z-index: 1; /* Ensure the tooltip appears above the blurred image */
+  }
+  
+  .link-wrapper:hover .tooltip {
+    display: block;
+  }
+  
+  
+  
+  
+  

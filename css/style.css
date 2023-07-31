@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+@import url('header.css');
+@import url('hero.css');
+@import url('footer.css');
+@import url('projects.css');
+@import url('contactMe.css');
+@import url('skills.css');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #11071F;
+  cursor: url('/images/cursor1.png');
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* For WebKit based browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #763cac; /* Set the desired color for the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #643b9e; /* Set a different color when hovering over the thumb */
+}
+
+/* For Firefox */
+::-moz-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+}
+
+::-moz-scrollbar-thumb {
+  background-color: #763cac; /* Set the desired color for the scrollbar thumb */
+}
+
+::-moz-scrollbar-thumb:hover {
+  background-color: #643b9e; /* Set a different color when hovering over the thumb */
+}
+
+/* For Microsoft Edge and Internet Explorer */
+::-ms-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+}
+
+::-ms-scrollbar-thumb {
+  background-color: #763cac; /* Set the desired color for the scrollbar thumb */
+}
+
+::-ms-scrollbar-thumb:hover {
+  background-color: #643b9e; /* Set a different color when hovering over the thumb */
+}
+
+@media screen and (max-width: 900px) {
+
+  .header__menu {
+    display: none;
+  }
+
+  .header__menu-mobile {
+    display: flex;
+  }
+
+  .hero_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .featured_projects{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  .project_text{
+    z-index: -1;
+  }
+
+  .lines img {
+    height: 350px;
+  }
+
+  .eclipse img{
+    height: 210px;
+    margin: -95px;
+    
+  }
+
+  .elipse{
+    height: 350px;
+    margin: -100px;
+  }
+
+  .eclipse .e {
+    margin-bottom: -140px;
+}
+
+}
+
+@media (max-width: 767px) {
+  /* CSS styles for mobile phones and small tablets */
+  .header__menu {
+    display: none;
+  }
+
+  .header__menu-mobile {
+    display: flex;
+  }
+
+  .hero_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .hero_text h1 {
+    font-size: 25px;
+  }
+
+  .featured_projects{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .project_text{
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lines img {
+    height: 350px;
+  }
+
+  .eclipse img{
+    height: 150px;
+    margin: -65px;
+    
+  }
+
+  .elipse{
+    height: 300px;
+    margin: -70px;
+  }
+
+  .eclipse .e {
+    margin-bottom: -100px;
+}
+
+.contact_us-box{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skill_row1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center
+  }
+
+  .footer_nav{
+    padding-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 11px;
+  }
+
+  .hero_image img{
+    height: 50%;
+  }
+
+  .arrow {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    left: 90px;
+  }
+
+  .arrow p{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* CSS for larger screens (default styles) */
+
+/* Media query for smaller screens (e.g., smartphones in portrait mode) */
+@media (max-width: 480px) {
+  /* CSS styles for smaller screens go here */
+    /* CSS styles for mobile phones and small tablets */
+    .header__menu {
+      display: none;
+    }
+  
+    .header__menu-mobile {
+      display: flex;
+    }
+  
+    .hero_section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .hero_text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+  
+    .hero_text h1 {
+      font-size: 25px;
+    }
+  
+    .featured_projects{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .project_text{
+      z-index: -1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .lines img {
+      height: 350px;
+    }
+  
+    .eclipse img{
+      height: 150px;
+      margin: -65px;
+      
+    }
+  
+    .elipse{
+      height: 300px;
+      margin: -70px;
+    }
+  
+    .eclipse .e {
+      margin-bottom: -100px;
+  }
+  
+  .contact_us-box{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .skills{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .skills_text{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .skill_row1{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center
+    }
+  
+    .footer_nav{
+      padding-top: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      font-size: 11px;
+    }
+  
+    .hero_image img{
+      height: 50%;
+    }
+  
+    .arrow {
+      display: flex;
+      position: relative;
+      flex-wrap: wrap;
+      left: 90px;
+    }
+  
+    .arrow p{
+      display: flex;
+      flex-direction: column;
+    }
+}
+
+
+

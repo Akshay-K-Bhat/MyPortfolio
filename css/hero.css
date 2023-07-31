@@ -1,0 +1,105 @@
+.hero {
+  padding-top: 60px;
+  padding-bottom: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero_section{
+  display: flex;
+  height: 50vh;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+}
+
+.hero_image{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero_img {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 375px;
+  height: 421px;
+  border-radius: 431px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #763cac 0%,
+    rgba(50, 15, 133, 0) 100%
+  );
+}
+
+.arrow {
+  display: flex;
+  position: relative;
+  left: 170px;
+  top: 100px;
+}
+
+.arrow p {
+  position: relative;
+  font-family: "Space Mono", monospace;
+  font-size: 19px;
+  top: 20px;
+}
+
+.arrow span {
+  color: #763cac;
+  font-family: "Space Mono", monospace;
+  padding-left: 10px;
+}
+
+.hero_text {
+  position: relative;
+  top: 50px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+
+.hero_text h1 {
+  font-family: "Space Mono", monospace;
+  color: #fff;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 63.332px */
+  letter-spacing: 1px;
+}
+
+
+
+.hero_text span {
+  color: #763cac;
+  font-family: "Space Mono", monospace;
+}
+
+
+
+
+.btn {
+  margin-top: 20px;
+  display: flex;
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  background: linear-gradient(169deg, #c961de 0%, #2954a3 100%);
+  box-shadow: 0px 10px 20px 0px rgba(8, 12, 33, 0.15);
+  cursor: pointer;
+}
+

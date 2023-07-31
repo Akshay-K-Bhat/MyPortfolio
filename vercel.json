@@ -1,0 +1,14 @@
+{
+    "headers": [
+      {
+        "source": "/images/AKSHAY_BHAT_RESUME.pdf.pdf",
+        "headers": [
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "*"
+          }
+        ]
+      }
+    ]
+  }
+  
